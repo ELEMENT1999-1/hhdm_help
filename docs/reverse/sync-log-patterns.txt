@@ -1,0 +1,120 @@
+2026-11-24 09:55:24.509 DEBUG 26.2.1.4487 {GUID} TO SERVER: UserAuthMessage: ClientVersion=26.2.1.4487, Username=user@example.com, DatabaseId=<id>, SyncAuthMode=Basic, ClientSoftwareKey=HHDM, TraceId=<id> 
+2026-11-24 09:55:26.707 DEBUG 26.2.1.4487 {GUID} FROM SERVER: UserAuthResponseMessage: UserId=<id>, AccountIds=[<id>], Username=user@example.com, AuthenticatedWithServer=True, IsAllowedToSync=True, MessageString=, …
+2026-11-24 09:55:26.809 DEBUG 26.2.1.4487 {GUID} TO SERVER: SoftwareKey: , MainSoftwareVersionInformation: SoftwareKey: HHDM, SoftwareVersion: 26.2.1.4487, PluginSoftwareVersionInformation: , ProcessorArchitecture: AMD64…
+2026-11-24 09:55:27.874 DEBUG 26.2.1.4487 {GUID} Time for MessageProcessor to process remote message: UserAuthResponseMessage: UserId=<id>, AccountIds=[<id>], Username=user@example.com, AuthenticatedWithServer=True…
+2026-11-24 09:55:29.592 DEBUG 26.2.1.4487 {GUID} Handling LatestPermissionsResponseMessage: PermissionsCount=1, AccountIds=[<id>] for AccountId="<id>". SyncClient.AccountIds is null=false, values=["<id>"] 
+2026-11-24 09:55:29.926 DEBUG 26.2.1.4487 {GUID} Time for MasterCache to process UserAuthResponseMessage: UserId=<id>, AccountIds=[<id>], Username=user@example.com, AuthenticatedWithServer=True, IsAllowedToSync=Tru…
+2026-11-24 09:55:30.221 DEBUG 26.2.1.4487 {GUID} TO SERVER: RequestPendingSyncOperationsMessage 2000: 2026-09-07T20:37:37.1900030Z <id> <id>; TraceId=<id> 
+2026-11-24 09:55:30.235 DEBUG 26.2.1.4487 {GUID} TO SERVER: HHDev.DataManagement.Core.Messages.Permissions.RequestLatestPermissionsMessage 
+2026-11-24 09:55:30.850 DEBUG 26.2.1.4487 {GUID} FROM SERVER: HHDev.DataManagement.Core.Messages.LatestVersionsResponseMessage 
+2026-11-24 09:55:32.654 DEBUG 26.2.1.4487 {GUID} FROM SERVER: LatestPermissionsResponseMessage: PermissionsCount=1, AccountIds=[<id>] 
+2026-11-24 09:55:32.654 DEBUG 26.2.1.4487 {GUID} FROM SERVER: PendingOperationsInfoMessage: 807, TraceId=<id> 
+2026-11-24 09:55:33.012 DEBUG 26.2.1.4487 {GUID} Handling LatestPermissionsResponseMessage: PermissionsCount=1, AccountIds=[<id>] for AccountId="<id>". SyncClient.AccountIds is null=false, values=["<id>"] 
+2026-11-24 09:55:38.802 DEBUG 26.2.1.4487 {GUID} FROM SERVER: SyncOp: Count=807, IsResponse=True, IsFinal=True, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id> 
+2026-11-24 09:55:40.840 DEBUG 26.2.1.4487 {GUID} INSERT INTO "Track" ("AccountId", "CreatedBy", "CreatedDate", "CustomProperties", "CustomPropertyDefinitionId", "Id", "LastModifiedBy", "LastModifiedDate", "Name") VALUES …
+2026-11-24 09:55:40.924 DEBUG 26.2.1.4487 {GUID} INSERT INTO "Tyre" ("AccountId", "Condition", "CreatedBy", "CreatedDate", "CustomProperties", "CustomPropertyDefinitionId", "Id", "LastModifiedBy", "LastModifiedDate", "Na…
+2026-11-24 09:55:40.947 DEBUG 26.2.1.4487 {GUID} Time for MessageProcessor to process remote message: SyncOp: Count=807, IsResponse=True, IsFinal=True, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id>: 1.945407 
+2026-11-24 09:55:44.015 DEBUG 26.2.1.4487 {GUID} TO SERVER: Account: <id>, Target: AccountOptions, Direction: Download, Id: <id> 
+2026-11-24 09:55:44.040 DEBUG 26.2.1.4487 {GUID} TO SERVER: Account: <id>, Target: TrackConfiguration, Direction: Download, Id: <id> 
+2026-11-24 09:55:44.744 DEBUG 26.2.1.4487 {GUID} FROM SERVER: ProvideAttachedFileUrlMessage <id> https://hhdm-attached-file-storage-compressed.s3.eu-central-1.amazonaws.com/<id>?X-Amz-Expires=3600&X-Amz-Security-Token=IQ…
+2026-11-24 09:56:43.513 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 09:59:23.681 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 10:02:04.019 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 10:36:06.318 DEBUG 26.2.1.4487 {GUID} Handling LatestPermissionsResponseMessage: PermissionsCount=1, AccountIds=[<id>] for AccountId="<id>". SyncClient.AccountIds is null=false, values=["<id>"] 
+2026-11-24 10:36:08.417 DEBUG 26.2.1.4487 {GUID} TO SERVER: UserAuthMessage: ClientVersion=26.2.1.4487, Username=user@example.com, DatabaseId=<id>, SyncAuthMode=Basic, ClientSoftwareKey=HHDM, TraceId=<id> 
+2026-11-24 10:36:10.500 DEBUG 26.2.1.4487 {GUID} FROM SERVER: UserAuthResponseMessage: UserId=<id>, AccountIds=[<id>], Username=user@example.com, AuthenticatedWithServer=True, IsAllowedToSync=True, MessageString=, …
+2026-11-24 10:36:10.556 DEBUG 26.2.1.4487 {GUID} TO SERVER: SoftwareKey: , MainSoftwareVersionInformation: SoftwareKey: HHDM, SoftwareVersion: 26.2.1.4487, PluginSoftwareVersionInformation: , ProcessorArchitecture: AMD64…
+2026-11-24 10:36:10.749 DEBUG 26.2.1.4487 {GUID} Time for MessageProcessor to process remote message: UserAuthResponseMessage: UserId=<id>, AccountIds=[<id>], Username=user@example.com, AuthenticatedWithServer=True…
+2026-11-24 10:36:10.905 DEBUG 26.2.1.4487 {GUID} Time for MasterCache to process UserAuthResponseMessage: UserId=<id>, AccountIds=[<id>], Username=user@example.com, AuthenticatedWithServer=True, IsAllowedToSync=Tru…
+2026-11-24 10:36:10.963 DEBUG 26.2.1.4487 {GUID} TO SERVER: RequestPendingSyncOperationsMessage 2000: 2026-11-11T08:42:00.7825730Z <id> <id>; TraceId=<id> 
+2026-11-24 10:36:10.987 DEBUG 26.2.1.4487 {GUID} TO SERVER: HHDev.DataManagement.Core.Messages.Permissions.RequestLatestPermissionsMessage 
+2026-11-24 10:36:13.700 DEBUG 26.2.1.4487 {GUID} FROM SERVER: HHDev.DataManagement.Core.Messages.LatestVersionsResponseMessage 
+2026-11-24 10:36:13.700 DEBUG 26.2.1.4487 {GUID} FROM SERVER: PendingOperationsInfoMessage: 0, TraceId=<id> 
+2026-11-24 10:36:13.800 DEBUG 26.2.1.4487 {GUID} FROM SERVER: LatestPermissionsResponseMessage: PermissionsCount=1, AccountIds=[<id>] 
+2026-11-24 10:36:13.948 DEBUG 26.2.1.4487 {GUID} Handling LatestPermissionsResponseMessage: PermissionsCount=1, AccountIds=[<id>] for AccountId="<id>". SyncClient.AccountIds is null=false, values=["<id>"] 
+2026-11-24 10:37:07.929 DEBUG 26.2.1.4487 {GUID} TO SERVER: AddDataSelectionMessage DataSelectionId=<id>, AccountId=<id>, EventId=<id>, CarId=, TraceId=<id> 
+2026-11-24 10:37:10.346 DEBUG 26.2.1.4487 {GUID} FROM SERVER: AddDataSelectionResponseMessage DataSelectionId=<id>, ResponseStatus=Accepted, AccountId=<id>, EventId=<id>, CarId=, TraceId=<id> 
+2026-11-24 10:37:10.649 DEBUG 26.2.1.4487 {GUID} TO SERVER: RequestPendingSyncOperationsMessage 2000:  <id> <id>; TraceId=<id> 
+2026-11-24 10:37:11.856 DEBUG 26.2.1.4487 {GUID} FROM SERVER: PendingOperationsInfoMessage: 209, TraceId=<id> 
+2026-11-24 10:37:12.959 DEBUG 26.2.1.4487 {GUID} FROM SERVER: SyncOp: Count=209, IsResponse=True, IsFinal=True, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id> 
+2026-11-24 10:37:13.444 DEBUG 26.2.1.4487 {GUID} Time for MessageProcessor to process remote message: SyncOp: Count=209, IsResponse=True, IsFinal=True, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id>: 0.4191396 
+2026-11-24 10:37:16.370 DEBUG 26.2.1.4487 {GUID} TO SERVER: AddDataSelectionMessage DataSelectionId=<id>, AccountId=<id>, EventId=<id>, CarId=<id>, TraceId=<id> 
+2026-11-24 10:37:17.875 DEBUG 26.2.1.4487 {GUID} FROM SERVER: AddDataSelectionResponseMessage DataSelectionId=<id>, ResponseStatus=Accepted, AccountId=<id>, EventId=<id>, CarId=<id>, TraceId=<id> 
+2026-11-24 10:37:18.076 DEBUG 26.2.1.4487 {GUID} TO SERVER: RequestPendingSyncOperationsMessage 2000:  <id> <id>; TraceId=<id> 
+2026-11-24 10:37:19.484 DEBUG 26.2.1.4487 {GUID} FROM SERVER: PendingOperationsInfoMessage: 5018, TraceId=<id> 
+2026-11-24 10:37:31.534 DEBUG 26.2.1.4487 {GUID} FROM SERVER: SyncOp: Count=2000, IsResponse=True, IsFinal=False, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id> 
+2026-11-24 10:37:32.236 DEBUG 26.2.1.4487 {GUID} Time for MessageProcessor to process remote message: SyncOp: Count=2000, IsResponse=True, IsFinal=False, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id>: 0.6013884 
+2026-11-24 10:37:32.293 DEBUG 26.2.1.4487 {GUID} Time for MasterCache to process UPDATE SessionObjectJob=<id>, TraceId=<id>/<id>: 0.002ms 
+2026-11-24 10:37:43.173 DEBUG 26.2.1.4487 {GUID} FROM SERVER: SyncOp: Count=2000, IsResponse=True, IsFinal=False, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id> 
+2026-11-24 10:37:43.388 DEBUG 26.2.1.4487 {GUID} Time for MessageProcessor to process remote message: SyncOp: Count=2000, IsResponse=True, IsFinal=False, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id>: 0.1140683 
+2026-11-24 10:37:45.557 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 10:37:50.300 DEBUG 26.2.1.4487 {GUID} FROM SERVER: SyncOp: Count=1018, IsResponse=True, IsFinal=True, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id> 
+2026-11-24 10:37:50.604 DEBUG 26.2.1.4487 {GUID} INSERT INTO "Lap" ("CreatedBy", "CreatedDate", "CustomProperties", "CustomPropertyDefinitionId", "Id", "LapMarkerId", "LapTrackStatusMarkerId", "LastModifiedBy", "LastModi…
+2026-11-24 10:37:50.604 DEBUG 26.2.1.4487 {GUID} Time for MessageProcessor to process remote message: SyncOp: Count=1018, IsResponse=True, IsFinal=True, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id>: 0.1863266 
+2026-11-24 10:37:50.714 DEBUG 26.2.1.4487 {GUID} Time for MasterCache to process INSERT Lap=<id>, TraceId=<id>/<id>: 0.0016ms 
+2026-11-24 10:37:50.714 DEBUG 26.2.1.4487 {GUID} Time for MasterCache to process INSERT Lap=<id>, TraceId=<id>/<id>: 0.0025ms 
+2026-11-24 10:37:50.902 DEBUG 26.2.1.4487 {GUID} TO SERVER: AddDataSelectionMessage DataSelectionId=<id>, AccountId=<id>, EventId=<id>, CarId=<id>, TraceId=<id> 
+2026-11-24 10:37:51.614 DEBUG 26.2.1.4487 {GUID} FROM SERVER: AddDataSelectionResponseMessage DataSelectionId=<id>, ResponseStatus=Accepted, AccountId=<id>, EventId=<id>, CarId=<id>, TraceId=<id> 
+2026-11-24 10:37:52.936 DEBUG 26.2.1.4487 {GUID} TO SERVER: RequestPendingSyncOperationsMessage 2000:  <id> <id>; TraceId=<id> 
+2026-11-24 10:37:53.639 DEBUG 26.2.1.4487 {GUID} FROM SERVER: PendingOperationsInfoMessage: 5204, TraceId=<id> 
+2026-11-24 10:38:11.109 DEBUG 26.2.1.4487 {GUID} FROM SERVER: SyncOp: Count=2000, IsResponse=True, IsFinal=False, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id> 
+2026-11-24 10:38:11.351 DEBUG 26.2.1.4487 {GUID} Time for MessageProcessor to process remote message: SyncOp: Count=2000, IsResponse=True, IsFinal=False, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id>: 0.1407285 
+2026-11-24 10:38:11.449 DEBUG 26.2.1.4487 {GUID} Time for MasterCache to process UPDATE PlannedRun=<id>, TraceId=<id>/<id>: 0.0009ms 
+2026-11-24 10:38:25.666 DEBUG 26.2.1.4487 {GUID} FROM SERVER: SyncOp: Count=2000, IsResponse=True, IsFinal=False, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id> 
+2026-11-24 10:38:25.836 DEBUG 26.2.1.4487 {GUID} Time for MessageProcessor to process remote message: SyncOp: Count=2000, IsResponse=True, IsFinal=False, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id>: 0.1282044 
+2026-11-24 10:38:34.620 DEBUG 26.2.1.4487 {GUID} FROM SERVER: SyncOp: Count=1204, IsResponse=True, IsFinal=True, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id> 
+2026-11-24 10:38:34.909 DEBUG 26.2.1.4487 {GUID} Time for MessageProcessor to process remote message: SyncOp: Count=1204, IsResponse=True, IsFinal=True, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id>: 0.2020603 
+2026-11-24 10:38:35.022 DEBUG 26.2.1.4487 {GUID} Time for MasterCache to process INSERT Lap=<id>, TraceId=<id>/<id>: 0.0008ms 
+2026-11-24 10:40:25.984 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 10:43:13.305 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 10:46:05.276 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 10:48:09.274 DEBUG 26.2.1.4487 {GUID} sending batch 1 to server, op sequence 1: <id> Update 
+2026-11-24 10:48:09.428 DEBUG 26.2.1.4487 {GUID} TO SERVER: SyncOp: Count=1, IsResponse=False, IsFinal=False, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id>; UPDATE ViewCustomColumnColumnDefinition=<id>, TraceId=<…
+2026-11-24 10:48:10.235 DEBUG 26.2.1.4487 {GUID} FROM SERVER: HhdmReceiptAcknowledgementMessage: AcknowledgementItemsCount=1, TraceId=<id> 
+2026-11-24 10:48:12.293 DEBUG 26.2.1.4487 {GUID} sending batch 2 to server, op sequence 2: <id> Update 
+2026-11-24 10:48:12.457 DEBUG 26.2.1.4487 {GUID} TO SERVER: SyncOp: Count=1, IsResponse=False, IsFinal=False, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id>; UPDATE ViewCustomColumnColumnDefinition=<id>, TraceId=<…
+2026-11-24 10:48:14.263 DEBUG 26.2.1.4487 {GUID} FROM SERVER: HhdmReceiptAcknowledgementMessage: AcknowledgementItemsCount=1, TraceId=<id> 
+2026-11-24 10:48:14.805 DEBUG 26.2.1.4487 {GUID} sending batch 3 to server, op sequence 3: <id> Update 
+2026-11-24 10:48:15.002 DEBUG 26.2.1.4487 {GUID} TO SERVER: SyncOp: Count=1, IsResponse=False, IsFinal=False, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id>; UPDATE ViewCustomColumnColumnDefinition=<id>, TraceId=<…
+2026-11-24 10:48:16.710 DEBUG 26.2.1.4487 {GUID} FROM SERVER: HhdmReceiptAcknowledgementMessage: AcknowledgementItemsCount=1, TraceId=<id> 
+2026-11-24 10:48:30.241 DEBUG 26.2.1.4487 {GUID} sending batch 4 to server, op sequence 4: <id> Update 
+2026-11-24 10:48:30.542 DEBUG 26.2.1.4487 {GUID} TO SERVER: SyncOp: Count=1, IsResponse=False, IsFinal=False, Batch=0, DataSelId=<id>, AccountId=<id>, TraceId=<id>; UPDATE ViewCustomColumnColumnDefinition=<id>, TraceId=<…
+2026-11-24 10:48:32.423 DEBUG 26.2.1.4487 {GUID} FROM SERVER: HhdmReceiptAcknowledgementMessage: AcknowledgementItemsCount=1, TraceId=<id> 
+2026-11-24 10:48:52.511 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 10:51:29.172 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 10:53:56.911 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 10:56:10.562 DEBUG 26.2.1.4487 {GUID} TO SERVER: SoftwareKey: , MainSoftwareVersionInformation: SoftwareKey: HHDM, SoftwareVersion: 26.2.1.4487, PluginSoftwareVersionInformation: , ProcessorArchitecture: AMD64…
+2026-11-24 10:56:14.448 DEBUG 26.2.1.4487 {GUID} FROM SERVER: HHDev.DataManagement.Core.Messages.LatestVersionsResponseMessage 
+2026-11-24 10:56:37.374 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 10:59:24.993 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 11:02:07.824 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 11:04:46.635 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 11:07:43.814 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 11:10:38.687 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 11:13:18.601 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 11:16:01.686 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 11:16:10.561 DEBUG 26.2.1.4487 {GUID} TO SERVER: SoftwareKey: , MainSoftwareVersionInformation: SoftwareKey: HHDM, SoftwareVersion: 26.2.1.4487, PluginSoftwareVersionInformation: , ProcessorArchitecture: AMD64…
+2026-11-24 11:16:13.465 DEBUG 26.2.1.4487 {GUID} FROM SERVER: HHDev.DataManagement.Core.Messages.LatestVersionsResponseMessage 
+2026-11-24 11:18:09.791 DEBUG 26.2.1.4487 {GUID} Time for MessageProcessor to process local message: HHDev.Sync.Client.ClientDisconnectedMessage: 6.4E-06 
+2026-11-24 11:18:09.994 DEBUG 26.2.1.4487 {GUID} Time for MasterCache to process HHDev.Sync.Client.ClientDisconnectedMessage: 0.0138ms 
+2026-11-24 11:18:09.994 DEBUG 26.2.1.4487 {GUID} Time for MasterCache to process HHDev.Sync.Client.ClientDisconnectedMessage: 0.0398ms 
+2026-11-24 11:18:13.023 DEBUG 26.2.1.4487 {GUID} TO SERVER: UserAuthMessage: ClientVersion=26.2.1.4487, Username=user@example.com, DatabaseId=<id>, SyncAuthMode=Basic, ClientSoftwareKey=HHDM, TraceId=<id> 
+2026-11-24 11:18:14.006 DEBUG 26.2.1.4487 {GUID} FROM SERVER: UserAuthResponseMessage: UserId=<id>, AccountIds=[<id>], Username=user@example.com, AuthenticatedWithServer=True, IsAllowedToSync=True, MessageString=, …
+2026-11-24 11:18:14.049 DEBUG 26.2.1.4487 {GUID} TO SERVER: SoftwareKey: , MainSoftwareVersionInformation: SoftwareKey: HHDM, SoftwareVersion: 26.2.1.4487, PluginSoftwareVersionInformation: , ProcessorArchitecture: AMD64…
+2026-11-24 11:18:14.225 DEBUG 26.2.1.4487 {GUID} Time for MessageProcessor to process remote message: UserAuthResponseMessage: UserId=<id>, AccountIds=[<id>], Username=user@example.com, AuthenticatedWithServer=True…
+2026-11-24 11:18:14.326 DEBUG 26.2.1.4487 {GUID} Time for MasterCache to process UserAuthResponseMessage: UserId=<id>, AccountIds=[<id>], Username=user@example.com, AuthenticatedWithServer=True, IsAllowedToSync=Tru…
+2026-11-24 11:18:14.352 DEBUG 26.2.1.4487 {GUID} TO SERVER: HHDev.DataManagement.Core.Messages.Permissions.RequestLatestPermissionsMessage 
+2026-11-24 11:18:14.352 DEBUG 26.2.1.4487 {GUID} TO SERVER: RequestPendingSyncOperationsMessage 2000: 2026-11-24T10:48:28.7120300Z <id> <id>; 2026-09-27T07:10:00.0617990Z <id> <id>; 2026-09-27T09:07:32.2982500Z <id> <id>…
+2026-11-24 11:18:15.864 DEBUG 26.2.1.4487 {GUID} FROM SERVER: LatestPermissionsResponseMessage: PermissionsCount=1, AccountIds=[<id>] 
+2026-11-24 11:18:15.864 DEBUG 26.2.1.4487 {GUID} FROM SERVER: PendingOperationsInfoMessage: 0, TraceId=<id> 
+2026-11-24 11:18:16.043 DEBUG 26.2.1.4487 {GUID} Handling LatestPermissionsResponseMessage: PermissionsCount=1, AccountIds=[<id>] for AccountId="<id>". SyncClient.AccountIds is null=false, values=["<id>"] 
+2026-11-24 11:18:17.876 DEBUG 26.2.1.4487 {GUID} FROM SERVER: HHDev.DataManagement.Core.Messages.LatestVersionsResponseMessage 
+2026-11-24 11:18:46.948 DEBUG 26.2.1.4487 {GUID} Starting InitializeClientAsync: <id> 
+2026-11-24 11:19:11.796 DEBUG 26.2.1.4487 {GUID} Time for MessageProcessor to process local message: HHDev.Sync.Client.ClientDisconnectedMessage: 7.5E-06 
+2026-11-24 11:19:11.896 DEBUG 26.2.1.4487 {GUID} Time for MasterCache to process HHDev.Sync.Client.ClientDisconnectedMessage: 0.0107ms 
+2026-11-24 11:19:11.896 DEBUG 26.2.1.4487 {GUID} Time for MasterCache to process HHDev.Sync.Client.ClientDisconnectedMessage: 0.0294ms 
+2026-11-24 11:19:13.309 DEBUG 26.2.1.4487 {GUID} TO SERVER: UserAuthMessage: ClientVersion=26.2.1.4487, Username=user@example.com, DatabaseId=<id>, SyncAuthMode=Basic, ClientSoftwareKey=HHDM, TraceId=<id> 
+2026-11-24 11:19:14.207 DEBUG 26.2.1.4487 {GUID} FROM SERVER: UserAuthResponseMessage: UserId=<id>, AccountIds=[<id>], Username=user@example.com, AuthenticatedWithServer=True, IsAllowedToSync=True, MessageString=, …
+2026-11-24 11:19:14.207 DEBUG 26.2.1.4487 {GUID} TO SERVER: SoftwareKey: , MainSoftwareVersionInformation: SoftwareKey: HHDM, SoftwareVersion: 26.2.1.4487, PluginSoftwareVersionInformation: , ProcessorArchitecture: AMD64…
+2026-11-24 11:19:14.310 DEBUG 26.2.1.4487 {GUID} Time for MessageProcessor to process remote message: UserAuthResponseMessage: UserId=<id>, AccountIds=[<id>], Username=user@example.com, AuthenticatedWithServer=True…
+2026-11-24 11:19:14.411 DEBUG 26.2.1.4487 {GUID} Time for MasterCache to process UserAuthResponseMessage: UserId=<id>, AccountIds=[<id>], Username=user@example.com, AuthenticatedWithServer=True, IsAllowedToSync=Tru…

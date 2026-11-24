@@ -1,0 +1,11 @@
+﻿full_name,kind,base_type,interfaces,method_count,field_count,property_count
+"<>c","class","System.Object","",5,3,0
+"<>c__DisplayClass2_0","class","System.Object","",2,1,0
+"<>O","static","System.Object","",0,2,0
+"<>O","static","System.Object","",0,1,0
+"<Module>","class","","",0,0,0
+"HHDev.DataManagement.Client.HHDataManagement.App","class","System.Windows.Application","",5,4,0
+"HHDev.DataManagement.Client.HHDataManagement.Properties.Resources","class","System.Object","",5,2,3
+"HHDev.DataManagement.Client.HHDataManagement.Properties.Settings","class","System.Configuration.ApplicationSettingsBase","",3,1,1
+"HHDev.DataManagement.Client.HHDataManagement.Startup","class","System.Object","",4,2,0
+"HHDevDataManagementClientHHDataManagement_ProcessedByFody","class","System.Object","",0,2,0

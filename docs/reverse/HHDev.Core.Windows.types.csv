@@ -1,0 +1,15 @@
+﻿full_name,kind,base_type,interfaces,method_count,field_count,property_count
+"<Module>","class","","",0,0,0
+"HHDev.Core.NETStandard.Helpers.IRestartFlagSettings","interface","","",2,0,1
+"HHDev.Core.NETStandard.Helpers.IUpgradeableSettings","interface","","",2,0,1
+"HHDev.Core.NETStandard.Helpers.SettingsHelpers","static","System.Object","",3,0,0
+"HHDev.Core.Windows.Helpers.ProxyHelpers","static","System.Object","",3,1,0
+"HHDev.Core.Windows.Helpers.SecurityHelpers","static","System.Object","",2,0,0
+"HHDev.Core.Windows.Helpers.Win32Api","class","System.Object","",5,9,0
+"HHDev.Core.Windows.Models.HandleButtonClick","class","System.MulticastDelegate","",4,0,0
+"HHDev.Core.Windows.Models.HHRibbonBar","class","System.Object","",3,2,2
+"HHDev.Core.Windows.Models.HHRibbonButton","class","System.Object","",4,3,3
+"HHDev.Core.Windows.Models.HHRibbonTab","class","System.Object","",3,2,2
+"HHDevCoreWindows_ProcessedByFody","class","System.Object","",0,2,0
+"WINHTTP_AUTOPROXY_OPTIONS","struct","System.ValueType","",0,6,0
+"WINHTTP_PROXY_INFO","struct","System.ValueType","",0,3,0

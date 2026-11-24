@@ -1,0 +1,10 @@
+﻿full_name,kind,base_type,interfaces,method_count,field_count,property_count
+"<>c","class","System.Object","",4,3,0
+"<>c","class","System.Object","",3,2,0
+"<>c__DisplayClass42_0","class","System.Object","",2,1,0
+"<Module>","class","","",0,0,0
+"HHDev.DataFileAccess.HDF5.HDF5ChannelProperties","class","System.Object","IChannelProperties",16,7,9
+"HHDev.DataFileAccess.HDF5.HDF5DataFile","class","System.Object","IDataFile",24,10,9
+"HHDev.DataFileAccess.HDF5.HDF5FileProperties","class","System.Object","IFileProperties",27,13,13
+"HHDev.DataFileAccess.HDF5.HDF5FileReader","class","System.Object","IFileReader",5,0,0
+"HHDev.DataFileAccess.HDF5.HDF5Helpers","static","System.Object","",5,0,0
