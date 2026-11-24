@@ -38,18 +38,18 @@ hhdm-help/
 
 ```powershell
 # Windows（PowerShell）
-irm https://raw.githubusercontent.com/<user>/<repo>/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/ELEMENT1999-1/hhdm_help/main/install.ps1 | iex
 ```
 
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/<user>/<repo>/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ELEMENT1999-1/hhdm_help/main/install.sh | bash
 ```
 
 或指定分支/路径：
 
 ```powershell
-.\install.ps1 -Repo "https://github.com/<user>/<repo>" -Branch main
+.\install.ps1 -Repo "https://github.com/ELEMENT1999-1/hhdm_help" -Branch main
 ```
 
 ### 方式二：手动

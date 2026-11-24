@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # hhdm-help installer (macOS / Linux)
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/<user>/<repo>/main/install.sh | bash
-#   REPO=https://github.com/<user>/<repo> BRANCH=main bash install.sh
+#   curl -fsSL https://raw.githubusercontent.com/ELEMENT1999-1/hhdm_help/main/install.sh | bash
+#   REPO=https://github.com/ELEMENT1999-1/hhdm_help BRANCH=main bash install.sh
 set -euo pipefail
 
 REPO="${REPO:-}"

@@ -1,9 +1,9 @@
 # hhdm-help installer (Windows PowerShell)
 # Usage:
-#   irm https://raw.githubusercontent.com/<user>/<repo>/main/install.ps1 | iex
-#   or: .\install.ps1 -Repo https://github.com/<user>/<repo> -Branch main
+#   irm https://raw.githubusercontent.com/ELEMENT1999-1/hhdm_help/main/install.ps1 | iex
+#   or: .\install.ps1 -Repo https://github.com/ELEMENT1999-1/hhdm_help -Branch main
 param(
-  [string]$Repo = "",
+  [string]$Repo = "https://github.com/ELEMENT1999-1/hhdm_help",
   [string]$Branch = "main",
   [string]$SkillName = "hhdm-help",
   [string]$DestRoot = ""
