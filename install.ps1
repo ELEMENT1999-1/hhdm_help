@@ -42,8 +42,14 @@ try {
 
   if ($Repo) {
     Write-Host "==> Cloning $Repo ($Branch)"
-    git clone --depth 1 --branch $Branch $Repo $tmp 2>&1 | Write-Host
-    if ($LASTEXITCODE -ne 0) { throw "git clone failed" }
+    # git writes progress to stderr; do not let Stop + NativeCommandError abort
+    $eap = $ErrorActionPreference
+    $ErrorActionPreference = "Continue"
+    $cloneOut = & git clone --depth 1 --branch $Branch -- $Repo $tmp 2>&1
+    $cloneCode = $LASTEXITCODE
+    $ErrorActionPreference = $eap
+    if ($cloneOut) { $cloneOut | ForEach-Object { Write-Host $_ } }
+    if ($cloneCode -ne 0) { throw "git clone failed (exit $cloneCode)" }
 
     # accept either repo root is skill or contains hhdm-help/
     $src = $null
@@ -74,9 +80,9 @@ try {
 
   if (-not (Test-Path (Join-Path $target "SKILL.md"))) { throw "SKILL.md missing after copy" }
 
-  # secret sanity
-  $leaks = Get-ChildItem $target -Recurse -File -Include *.md,*.json,*.txt,*.csv -ErrorAction SilentlyContinue |
-    Select-String -Pattern "\b[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}\b" -Context 0,0 -ErrorAction SilentlyContinue
+  # secret sanity: only flag UUID when line looks like a credential
+  $leaks = Get-ChildItem $target -Recurse -File -Include *.md,*.json,*.txt,*.csv,*.ps1,*.sh -ErrorAction SilentlyContinue |
+    Select-String -Pattern "(ApiKey|api[_-]?key|password|secret)\s*[:=]\s*[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-" -ErrorAction SilentlyContinue
   if ($leaks) { Write-Warning "Possible API key found in package — rotate and purge before publishing!" }
 
   Write-Host ""
